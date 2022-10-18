@@ -171,16 +171,13 @@ body {
     }
 
     .work-position,
-    .work-period {
+    .work-period,
+    .work-company {
         font-size: 14px;
     }
 
     .work-position {
         margin-right: 10px;
-    }
-
-    .work-company {
-        font-size: 14px;
     }
 
     .main__title,
