@@ -29,8 +29,10 @@ body {
 
     .main__description{
         font-size: 12px;
+    }
 
-
+    .work-experience {
+        margin-top: 120px;
     }
 
     .social,
