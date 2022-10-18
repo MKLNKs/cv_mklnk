@@ -17,6 +17,28 @@ body {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+@media print {
+    body {
+        color: black;
+    }
+
+    .photo {
+        width: 160px;
+        height: auto;
+    }
+
+    .main__description{
+        font-size: 12px;
+
+
+    }
+
+    .social,
+    .triangle {
+        display: none;
+    }
+}
+
 @media (max-width: 767.98px) {
     .container {
         display: flex;
