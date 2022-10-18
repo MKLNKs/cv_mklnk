@@ -1,0 +1,99 @@
+.sidebar {
+    width: 225px;
+    color: white;
+    background: center/cover #94cee8 url("../img/sidebar-background.png");
+    padding: 45px 5px 45px 55px;
+}
+
+.sidebar-title {
+    display: none;
+}
+
+.photo {
+    width: 120px;
+    margin-bottom: 55px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.triangle {
+    width: 25px;
+    height: 30px;
+    position: relative;
+    top: -100px;
+    left: 40px;
+}
+
+.contacts,
+.hard-skills,
+.soft-skills,
+.education {
+    margin-bottom: 40px;
+    width: 155px;
+}
+
+.contacts__title,
+.hard-skills__title,
+.soft-skills__title,
+.education__title,
+.english__title {
+    font: 600 14px Montserrat, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact__element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contact__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.contact__link {
+    flex: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.contact__link:hover {
+    color: #535ca4;
+    font-weight: 700;
+}
+
+.hard-skills__list,
+.soft-skills__list {
+    list-style: disc inside;
+    width: 160px;
+}
+
+.hard-skills__elem,
+.soft-skills__elem {
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+.education__item {
+    margin-bottom: 20px;
+}
+
+.education__elem {
+    margin-bottom: 8px;
+}
+
+.education-name {
+    font: 600 12px Montserrat, sans-serif;
+}
+
+.position,
+.period,
+.english__elem {
+    font-size: 9px;
+    line-height: 10px;
+}
