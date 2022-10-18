@@ -83,10 +83,6 @@ body {
         top: 222px;
     }
 
-    .contacts__title {
-        flex: 1 1 100%;
-    }
-
     .contact__element:hover {
         font-weight: 500;
     }
