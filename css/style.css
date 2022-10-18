@@ -27,17 +27,29 @@ body {
         height: auto;
     }
 
-    .main__description{
+    .main__description {
         font-size: 12px;
-    }
-
-    .work-experience {
-        margin-top: 120px;
     }
 
     .social,
     .triangle {
         display: none;
+    }
+}
+
+@media print and (orientation: portrait) {
+    .work-experience {
+        margin-top: 120px;
+    }
+}
+
+@media print and (orientation: landscape) {
+    .about {
+        margin-top: 20px;
+    }
+
+    .photo {
+        margin-bottom: 35px;
     }
 }
 
